@@ -20,4 +20,8 @@ const createMessage = () => {
   return message;
 };
 
-document.getElementById("message").innerHTML = createMessage();
+const showMessage = () => {
+  document.getElementById("message").innerHTML = createMessage();
+};
+
+showMessage();
